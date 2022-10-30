@@ -10,6 +10,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.9.7",
     "@react-native-community/async-storage": "^1.12.1",
     "@react-native-community/geolocation": "^2.1.0",
     "@react-native-community/masked-view": "^0.1.11",
@@ -17,7 +18,9 @@
     "@react-navigation/native": "^6.0.11",
     "@react-navigation/stack": "^6.2.2",
     "react": "17.0.2",
+    "react-hook-form": "^7.34.1",
     "react-native": "0.68.2",
+    "react-native-bouncy-checkbox": "^3.0.2",
     "react-native-gesture-handler": "^2.5.0",
     "react-native-permissions": "^3.5.0",
     "react-native-reanimated": "^2.9.1",
@@ -26,7 +29,8 @@
     "react-native-svg": "^12.4.0",
     "react-native-svg-transformer": "^1.0.0",
     "react-native-swiper": "^1.6.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

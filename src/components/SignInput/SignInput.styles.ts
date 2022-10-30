@@ -7,19 +7,13 @@ export const Container = styled.View`
 
 export const LabelText = styled.Text`
   font-size: 18px;
-  /* color: black; */
   font-weight: 700;
   color: white;
-  /* opacity: 0.8; */
 `;
 
 export const Input = styled.TextInput`
-  border-bottom-width: 2px;
-  /* border-bottom-color: #5E4B9A; */
+  color: white;
+  border-bottom-width: 1px;
   border-bottom-color: white;
   font-size: 16px;
-
-  &::placeholder {
-    color: white;
-  }
 `;

@@ -23,7 +23,7 @@ export const Preload = () => {
 
   return <S.Container>
     <Image
-      source={require('../../assets/premmius-logo.jpeg')}
+      source={require('../../assets/premmius-logo.jpg')}
       style={{ width: 300, height: 100 }}
     />
     <S.LoadingIcon size={40} color='#614B9D' />

@@ -3,18 +3,17 @@ import styled from 'styled-components/native';
 export const Container = styled.SafeAreaView`
   flex: 1;
   background-color: #5E4B9A;
+  padding: 0px 30px;
 `;
 
-
 export const Header = styled.View`
-  background-color: #5E4B9A;
+  /* background-color: #5E4B9A; */
   align-items: center;
   justify-content: center;
   width: 100%;
-  `;
+`;
 
 export const LoginContainer = styled.View`
-  padding: 0px 20px;
   margin-top: 20px;
 `;
 
@@ -39,6 +38,12 @@ export const Title = styled.Text`
 export const SubTitle = styled.Text`
   font-size: 24px;
   color: #5E4B9A;
+`;
+
+export const ErrorMessage = styled.Text`
+  font-size: 14px;
+  color: #FF0000;
+  margin-bottom: 10px;
 `;
 
 export const InputArea = styled.View`

@@ -52,4 +52,30 @@ export default {
     // const json = await req.json();
     // console.log('Json =>', json);
   },
+
+  signUpShopkeeper: async (company_name, cnpj, cpf, foundation_date, email, password): Promise<Object> => {
+    console.log('Dados enviados', company_name, cnpj, cpf, foundation_date, email, password)
+    const req = await fetch(`${BASE_API}/create/company`, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        company_name,
+        cnpj,
+        cpf,
+        foundation_date,
+        email,
+        password,
+      })
+    })
+      .then((res) => res.json())
+      .then((json) => { return json })
+      .catch((error) => error);
+
+    return req;
+    // const json = await req.json();
+    // console.log('Json =>', json);
+  },
 }
